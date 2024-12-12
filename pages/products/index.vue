@@ -4,6 +4,13 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+useHead({
+  title:"สินค้าทั้งหมด",
+  meta:[
+    {name:"description", content:"ร้านค้า,อุปกรณ์คอมพิวเตอร์"}
+  ]
+})
+</script>
 
 <style scoped></style>

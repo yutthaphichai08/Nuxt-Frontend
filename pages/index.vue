@@ -1,45 +1,30 @@
 <template>
-    <div>
-        <header>
-            <nav>
-                <h1 class="logo">
-                    Demo Shop
-                </h1>
-                <nuxt-link to="/">หน้าแรก</nuxt-link>
-                <nuxt-link to="/about">เกี่ยวกับเรา</nuxt-link>
-                <nuxt-link to="/products">สินค้าทั้งหมด</nuxt-link>
-            </nav>
-        </header>
-        <div>
-            <h1>หน้าแรก</h1>
-        </div>
+    <div class="container">
+        <h1>Welcome to the homepage</h1>
+        <img src="/public/image/shopping.svg" alt="">
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+useHead({
+  title:"หน้าแรก",
+  meta:[
+    {name:"description", content:"ร้านค้า,อุปกรณ์คอมพิวเตอร์"}
+  ]
+})
+
+</script>
 
 <style scoped>
-nav{
-    margin: 10px auto;
-    padding: 10px 0;
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #333;
 }
-nav a{
-    color: white;
-    text-decoration: none;
-    margin-left: 12px;
-    font-style: 18px;
-    padding: 10px;
-}
-nav a:hover{
-    color: orange;
-}
-.logo{
-    margin-right: auto;
-    padding-left: 10px;
-    color: white;
+
+img {
+    width: 500px;
+    height: 500px;
 }
 </style>
