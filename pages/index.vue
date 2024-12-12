@@ -7,7 +7,7 @@
 
 <script setup>
 useHead({
-  title:"หน้าแรก",
+  title:"Demo-Shop | หน้าแรก",
   meta:[
     {name:"description", content:"ร้านค้า,อุปกรณ์คอมพิวเตอร์"}
   ]

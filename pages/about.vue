@@ -7,7 +7,7 @@
 
 <script setup>
 useHead({
-  title:"เกี่ยวกับเรา",
+  title:"Demo-Shop | เกี่ยวกับเรา",
   meta:[
     {name:"description", content:"ร้านค้า,อุปกรณ์คอมพิวเตอร์"}
   ]
